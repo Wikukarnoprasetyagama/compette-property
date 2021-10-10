@@ -1,5 +1,6 @@
 body {
   font-family: "Asap";
+  background: #fafaff;
 }
 
 .section-hero {
@@ -15,7 +16,6 @@ body {
 }
 
 .section-hero .shape-svg {
-  margin-top: -10px !important;
   background-image: url(../images/shape.svg);
 }
 
@@ -67,5 +67,57 @@ body {
   color: #0f1d37;
   font-size: 18px;
   font-weight: 400;
+}
+
+.section-features {
+  margin-top: 120px;
+}
+
+.section-features h2 {
+  color: #0f1d37;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.section-features .card {
+  border-radius: 16px;
+  border: none;
+}
+
+.section-features .card .card-body img {
+  max-height: 55px;
+}
+
+.section-features .card .card-body .flex-grow {
+  float: right;
+}
+
+.section-features .card .card-body .flex-grow p {
+  margin-top: -5px;
+  color: #cacad2;
+}
+
+.section-features .card .card-body h3 {
+  margin-top: 70px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #10495c;
+}
+
+.section-features .card .card-body span {
+  font-weight: 400;
+  font-size: 22px;
+  color: #0f1d37;
+}
+
+.section-features .card .card-body h5 {
+  margin-top: 67px;
+  color: #0f1d37;
+  font-size: 22px;
+}
+
+.section-features .card .card-body .btn-fulltime {
+  background-color: #83d987;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

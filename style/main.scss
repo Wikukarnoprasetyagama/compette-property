@@ -1,5 +1,6 @@
 body {
   font-family: "Asap";
+  background: #fafaff;
 }
 
 .section-hero {
@@ -12,7 +13,6 @@ body {
     background-repeat: no-repeat;
   }
   .shape-svg {
-    margin-top: -10px !important;
     background-image: url(../images/shape.svg);
   }
   .hero-content {
@@ -56,5 +56,51 @@ body {
     color: #0f1d37;
     font-size: 18px;
     font-weight: 400;
+  }
+}
+
+.section-features {
+  margin-top: 120px;
+  h2 {
+    color: #0f1d37;
+    font-weight: 600;
+    font-size: 42px;
+  }
+  .card {
+    border-radius: 16px;
+    border: none;
+    .card-body {
+      img {
+        max-height: 55px;
+      }
+      .flex-grow {
+        float: right;
+
+        p {
+          margin-top: -5px;
+          color: #cacad2;
+        }
+      }
+      h3 {
+        margin-top: 70px;
+        font-size: 48px;
+        font-weight: 600;
+        color: #10495c;
+      }
+      span {
+        font-weight: 400;
+        font-size: 22px;
+        color: #0f1d37;
+      }
+      h5 {
+        margin-top: 67px;
+        color: #0f1d37;
+        font-size: 22px;
+      }
+      .btn-fulltime {
+        background-color: #83d987;
+        color: #fff;
+      }
+    }
   }
 }
