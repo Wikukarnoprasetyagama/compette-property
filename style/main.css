@@ -42,4 +42,28 @@ body {
   margin-top: 30px;
   max-height: 380px !important;
 }
+
+.section-partners {
+  padding-top: 120px;
+}
+
+.section-benefit {
+  padding-top: 120px;
+}
+
+.section-benefit .item-subtitle {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.section-benefit h2 {
+  color: #0f1d37;
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.section-benefit .learn-more a {
+  color: #0f1d37;
+}
 /*# sourceMappingURL=main.css.map */

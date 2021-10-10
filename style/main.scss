@@ -36,3 +36,23 @@ body {
     }
   }
 }
+
+.section-partners {
+  padding-top: 120px;
+}
+.section-benefit {
+  padding-top: 120px;
+  .item-subtitle {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  h2 {
+    color: #0f1d37;
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+  .learn-more a {
+    color: #0f1d37;
+  }
+}
