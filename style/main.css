@@ -1,0 +1,45 @@
+body {
+  font-family: "Asap";
+}
+
+.section-hero {
+  background-color: #0f1837;
+  background-size: cover;
+  height: 788px;
+}
+
+.section-hero .shape-union {
+  background-image: url(../images/Union.svg);
+  height: 673px !important;
+  background-repeat: no-repeat;
+}
+
+.section-hero .shape-svg {
+  margin-top: -10px !important;
+  background-image: url(../images/shape.svg);
+}
+
+.section-hero .hero-content {
+  margin-top: 70px;
+}
+
+.section-hero .hero-content h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 50px;
+  padding-top: 70px;
+}
+
+.section-hero .hero-content .btn-explore {
+  background-color: #83d987;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  width: 170px;
+}
+
+.section-hero .hero-content img {
+  margin-top: 30px;
+  max-height: 380px !important;
+}
+/*# sourceMappingURL=main.css.map */
