@@ -135,4 +135,10 @@ body {
   background-color: #83d987;
   color: #fff;
 }
+
+.section-features .more-info a {
+  color: #0f1d37;
+  font-size: 18px;
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */
