@@ -3,6 +3,20 @@ body {
   background: #fafaff;
 }
 
+.navbar {
+  background-color: #0f1837;
+}
+
+.navbar ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #b0c3c9 !important;
+}
+
+.navbar ul li .active {
+  color: #83d987 !important;
+}
+
 .section-hero {
   background-color: #0f1837;
   background-size: cover;
