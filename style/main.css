@@ -143,22 +143,24 @@ body {
 }
 
 .section-footer-content {
+  margin-top: 130px;
   background-color: #0f1837;
+  background-image: url(../images/Union.svg);
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 788px;
 }
 
-.section-footer-content .shape-footer {
-  background-image: url(../images/union_footer.svg);
+.section-footer-content .footer-title {
+  margin-top: 120px;
 }
 
-.section-footer-content h2 {
+.section-footer-content .footer-title h2 {
   color: #fff;
   font-weight: 600;
   font-size: 42px;
 }
 
-.section-footer-content p {
+.section-footer-content .footer-title p {
   color: #b0c3c9;
   font-size: 16px;
 }
@@ -169,7 +171,9 @@ body {
 }
 
 .section-footer-content .copyright {
+  margin-top: 120px;
   color: #b0c3c9;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */
