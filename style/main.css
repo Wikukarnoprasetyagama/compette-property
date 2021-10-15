@@ -142,31 +142,33 @@ body {
   font-weight: 400;
 }
 
-.section-footer {
+.section-footer-content {
   background-color: #0f1837;
+  background-size: cover;
+  height: 788px;
 }
 
-.section-footer .bg-shape {
-  height: 507px;
+.section-footer-content .shape-footer {
+  background-image: url(../images/union_footer.svg);
 }
 
-.section-footer .bg-shape .footer-title h2 {
+.section-footer-content h2 {
   color: #fff;
   font-weight: 600;
   font-size: 42px;
 }
 
-.section-footer .bg-shape .footer-title p {
+.section-footer-content p {
   color: #b0c3c9;
   font-size: 16px;
 }
 
-.section-footer .bg-shape button {
+.section-footer-content button {
   background-color: #83d987;
   color: #fff;
 }
 
-.section-footer .bg-shape .copyright {
+.section-footer-content .copyright {
   color: #b0c3c9;
   font-size: 18px;
 }
