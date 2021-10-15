@@ -123,3 +123,29 @@ body {
     font-weight: 400;
   }
 }
+
+.section-footer {
+  background-color: #0f1837;
+  .bg-shape {
+    height: 507px;
+    .footer-title {
+      h2 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 42px;
+      }
+      p {
+        color: #b0c3c9;
+        font-size: 16px;
+      }
+    }
+    button {
+      background-color: #83d987;
+      color: #fff;
+    }
+    .copyright {
+      color: #b0c3c9;
+      font-size: 18px;
+    }
+  }
+}

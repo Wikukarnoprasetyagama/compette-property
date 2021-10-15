@@ -141,4 +141,33 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+
+.section-footer {
+  background-color: #0f1837;
+}
+
+.section-footer .bg-shape {
+  height: 507px;
+}
+
+.section-footer .bg-shape .footer-title h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.section-footer .bg-shape .footer-title p {
+  color: #b0c3c9;
+  font-size: 16px;
+}
+
+.section-footer .bg-shape button {
+  background-color: #83d987;
+  color: #fff;
+}
+
+.section-footer .bg-shape .copyright {
+  color: #b0c3c9;
+  font-size: 18px;
+}
 /*# sourceMappingURL=main.css.map */
